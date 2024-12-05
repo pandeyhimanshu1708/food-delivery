@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Fast Food Delivery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: orange;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 1rem;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x800/?food') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+        .hero button {
+            padding: 0.75rem 1.5rem;
+            background: white;
+            color: orange;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .section h2 {
+            color: orange;
+        }
+        .menu, .testimonials {
+            display: flex;
+            justify-content: space-around;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .menu-item, .testimonial {
+            width: 30%;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .menu-item img, .testimonial img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Foodie</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Order</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Delicious Food, Delivered Fast</h1>
+        <p>Your favorite dishes at your doorstep.</p>
+        <button>Order Now</button>
+    </div>
+    <section class="section menu">
+        <h2>Our Popular Dishes</h2>
+        <div class="menu-item">
+            <img src="https://source.unsplash.com/300x200/?pizza" alt="Pizza">
+            <h3>Cheese Burst Pizza</h3>
+            <p>Loaded with cheese and toppings.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://source.unsplash.com/300x200/?burger" alt="Burger">
+            <h3>Classic Burger</h3>
+            <p>Juicy and flavorful.</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://source.unsplash.com/300x200/?pasta" alt="Pasta">
+            <h3>Creamy Alfredo Pasta</h3>
+            <p>Rich and creamy sauce.</p>
+        </div>
+    </section>
+    <section class="section testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <img src="https://source.unsplash.com/100x100/?person" alt="Customer">
+            <p>"The food was fresh and arrived on time. Highly recommend!"</p>
+            <h4>- Alex</h4>
+        </div>
+        <div class="testimonial">
+            <img src="https://source.unsplash.com/100x100/?woman" alt="Customer">
+            <p>"Amazing taste and quick service!"</p>
+            <h4>- Emily</h4>
+        </div>
+        <div class="testimonial">
+            <img src="https://source.unsplash.com/100x100/?man" alt="Customer">
+            <p>"Great variety and delicious options."</p>
+            <h4>- John</h4>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Foodie. All rights reserved.</p>
+    </footer>
+</body>
+</html>
